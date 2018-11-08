@@ -2541,6 +2541,17 @@ consola@^1.4.3, consola@^1.4.4:
     lodash "^4.17.5"
     std-env "^1.1.0"
 
+consola@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/consola/-/consola-2.2.4.tgz#33130c924e715eec17c7b5c836fd41f468616f38"
+  integrity sha512-1iYib+5XUvHL9YZsFYAV5gavnFvCyoJbG23XAPAKA0631bL1JZ3WsJUgtyOn/J1YWuJCV3VFmJ+CIHhMUVbGhQ==
+  dependencies:
+    chalk "^2.4.1"
+    dayjs "^1.7.7"
+    figures "^2.0.0"
+    std-env "^2.1.1"
+    string-width "^2.1.1"
+
 console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
@@ -3160,6 +3171,11 @@ dateformat@^3.0.0:
   version "3.0.3"
   resolved "https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
+
+dayjs@^1.7.7:
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.7.7.tgz#8df20f78ac2476e3f5348ef49f8f22ebc3016370"
+  integrity sha512-Qlkiu0NNDpYwhk0syK4ImvAl/5YnsEMkvC2O123INviGeOA3Q8s5VyVkZzmN5SC7Wv9bb1+rfwO+uSqtHB4UWw==
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -8992,6 +9008,13 @@ std-env@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npmjs.org/std-env/-/std-env-2.0.2.tgz#290baa5c905cd4d54f970596923d3f3077adaf06"
   integrity sha512-c5ighQ15FdLEXYfeed0Zf2qA+YIIW3NcqsoohqaZvBLRhgSiqq+650JDGLAxu3NmdNU/VlWNTnb9sSZg5Xthgw==
+  dependencies:
+    ci-info "^1.6.0"
+
+std-env@^2.1.1:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/std-env/-/std-env-2.2.0.tgz#2aa62be00b2a2745213add7a5c1e9048508d0ee2"
+  integrity sha512-DLSvfc9byGwR4Yio45RgtMBFMg9KtaRvqzMQJIyGwcqiMX1YzXvkR+FJBWdP+mQUNU1taGgixgmT2KZeTHptVQ==
   dependencies:
     ci-info "^1.6.0"
 
